@@ -69,22 +69,7 @@ function start() {
 
             },
         },
-        textures: {
-
-            src: ['/earth.jpg'],
-            parameters: [{
-                    name: 'TEXTURE_MAG_FILTER',
-                    value: 'LINEAR'
-                }, {
-
-                    name: 'TEXTURE_MIN_FILTER',
-                    value: 'LINEAR_MIPMAP_NEAREST',
-                    generateMipmap: true
-                }
-
-            ]
-        },
-
+        
 
 
 

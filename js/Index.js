@@ -7,7 +7,7 @@ function start() {
         nlat: 30,
         nlong: 30,
         radius: 3,
-        textures: '/earth.jpg'
+        textures: 'https://lizgar.github.io/A3D/js/earth.jpg'
     });
 
 
@@ -47,6 +47,7 @@ function start() {
             },
             onKeyDown: function(e) {
                 switch (e.key) {
+
                     case 'up':
                     case 'w':
                         var camera = this.camera;
@@ -69,7 +70,21 @@ function start() {
 
             },
         },
-
+        /*textures:{
+        	
+        	src: ['https://lizgar.github.io/A3D/js/earth.jpg'],
+        	parameters: [{
+        		name: 'TEXTURE_MAG_FILTER',
+        		value: 'LINEAR'
+        	},{
+        		
+        		name: 'TEXTURE_MIN_FILTER',
+        		value: 'LINEAR_MIPMAP_NEAREST',
+        		generateMipmap: true
+        	}
+        		
+        	]
+        },*/
 
 
 

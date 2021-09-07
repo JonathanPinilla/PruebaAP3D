@@ -7,7 +7,7 @@ function start() {
         nlat: 30,
         nlong: 30,
         radius: 3,
-        textures: 'https://lizgar.github.io/A3D/js/earth.jpg'
+        /*textures: 'https://lizgar.github.io/A3D/js/earth.jpg'*/
     });
 
 

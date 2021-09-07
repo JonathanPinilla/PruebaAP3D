@@ -47,7 +47,7 @@ function start() {
             }
 
         },
-        /*textures:{
+        textures:{
         	
         	src: ['https://lizgar.github.io/A3D/js/earth.jpg'],
         	parameters: [{
@@ -61,7 +61,7 @@ function start() {
         	}
         		
         	]
-        },*/
+        },
 
 
 
